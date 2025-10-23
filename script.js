@@ -17653,7 +17653,7 @@ function init() {
     const material = new THREE.ShaderMaterial({
         uniforms: {
             pixelRatio: { value: renderer.getPixelRatio() },
-            size: { value: 12 },
+            size: { value: 6 },
             highlightedGroup: { value: -1 }
         },
         vertexShader: `
